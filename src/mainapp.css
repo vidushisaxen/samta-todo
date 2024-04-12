@@ -1,0 +1,60 @@
+  .app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: #c1e0f3 0px 5px 15px;
+  }
+  .input-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  .input-bar{
+    height: 40px;
+    width: 250px;
+    padding-left: 20px;
+    border: 1px solid #5f33e1;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+  }
+  .add_btn{
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .del{
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .list-type{
+    list-style-type: none;
+  }
+  .list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    width: 90%;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    
+  }
+  

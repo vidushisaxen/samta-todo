@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.splash-screen{
+ display: flex;
+ background-color: #eef8fd;
+ height: 100vh;
+ width: 100%;
+ margin: 0px;
+ padding: 0px;
+ font-family: "Lato", sans-serif;
+ align-items: center;
+ justify-content: space-between;
+}
+.splash-screen-text{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.splash-screen-icon{
+  height: 100%;
+  width: 50%;
+}
+.todoimg{
+  width: 70%;
+margin-top: 10%;
+ height: 70%;
+ margin-left: 10%;
+ border-radius: 20px;
+ border: 2px solid #5f33e1;
+ padding: 10px;
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.text-heading{
+  font-size: 40px;
+  color: #24252c;
+}
+.text-para{
+  font-size: 20px;
+  color: #7d7d7d;
+  width: 50%;
+  text-align: center;
+}
+.start-btn{
+ cursor: pointer;
+ background-color: #5f33e1;
+ color: #fff;
+ padding: 20px 80px;
+ font-size: 20px;
+ border: none;
+ border-radius: 10px;
+}
+.start-btn:hover{
+  border: 2px solid #5f33e1;
+  color: #5f33e1;
+  background-color: #fff;
+  transition: 0.25s ease;
+}
